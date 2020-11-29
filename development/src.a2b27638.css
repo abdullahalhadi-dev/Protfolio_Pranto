@@ -1,0 +1,246 @@
+/* @import "../node_modules/bootstrap/dist/css/bootstrap.css"; */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: ghostwhite;
+    text-decoration: none;
+}
+
+.portfolio-image{
+    text-align: center;  
+}
+.portfolio-image img{
+    height: 200px;
+    width: 200px;
+    border: 3px solid darkgrey;
+}
+.image-text h2{
+    text-align: center;
+    margin-top: 15px;
+    color: cornflowerblue;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.image-text p{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 5px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.image-area{
+    margin-bottom: 60px;
+}
+
+
+.career-goal-area{
+    margin-bottom: 50px;
+}
+
+.career-goal-area h4{
+  color: cornflowerblue;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border-top: 2px solid darkgrey;
+  border-bottom: 2px solid darkgrey;
+  padding: 10px 0;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+.career-goal-area p{
+   font-size: 14px;
+   
+}
+
+.main-interest-area{
+    margin-bottom: 50px;
+}
+.main-interest-area h4{
+    color: cornflowerblue;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border-top: 2px solid darkgrey;
+    border-bottom: 2px solid darkgrey;
+    padding: 10px 0;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.main-interest-area{
+    font-size: 14px;
+}
+.main-interest-area ul li{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.contact-area{
+    margin-bottom: 50px;
+}
+.contact-area h4{
+    color: cornflowerblue;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border-top: 2px solid darkgrey;
+    border-bottom: 2px solid darkgrey;
+    padding: 10px 0;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.contact-area span{
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-left: 10px;
+}
+.contact-area i{
+    color: cornflowerblue;
+}
+
+
+.academic-area{
+    margin-bottom: 45px; 
+}
+.academic-area h4{
+    color: cornflowerblue;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border-top: 2px solid darkgrey;
+    border-bottom: 2px solid darkgrey;
+    padding: 10px 0;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.academic-area span{
+    font-size: 14px;
+    font-weight: 700;
+    color: #444440;
+}
+.academic-area p{
+    font-size: 14px;
+}
+.academic-area ul li{
+    font-size: 14px;
+    margin-bottom: 5px;
+   
+}
+.middle-space{
+    margin-top: 15px;
+    display: inline-block;
+}
+
+
+.career-history-area{
+    margin-bottom: 45px; 
+}
+.career-history-area h4{
+    color: cornflowerblue;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-top: 2px solid darkgrey;
+    border-bottom: 2px solid darkgrey;
+    padding: 10px 0;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.career-history-area span{
+    font-size: 14px;
+    font-weight: 700;
+    color: #444440;
+}
+.career-history-area ul li{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.achievement-area h4{
+    color: cornflowerblue;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border-top: 2px solid darkgrey;
+    border-bottom: 2px solid darkgrey;
+    padding: 10px 0;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.achievement-area ul li{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+/* login.html */
+
+.background{
+    background-color: lightgreen;
+}
+.login-area-background{
+    background: #ffffff;
+    margin-top: 50px;
+    padding: 40px;
+}
+.login-area-background a{
+    text-decoration: none;
+}
+.login-area-background h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.facebook{
+    background: #3B5997;
+    padding: 20px 0;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.facebook i{
+    margin-right: 10px;
+}
+.google{
+    background: #ffffff;
+    padding: 20px 0;
+    color: #333333;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.google i{
+    margin-right: 10px;
+}
+
+
+.input-area{
+    margin-top: 30px;
+}
+
+.username label{
+    
+}
+.username input{
+    width: 100%;
+}
+
+.password input{
+    width: 100%;
+}
+
+.sign-in{
+    background: #333333;
+    color: #ffffff;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.sign-up{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*# sourceMappingURL=/src.a2b27638.css.map */
